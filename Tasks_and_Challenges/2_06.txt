@@ -1,0 +1,4 @@
+a) 'Hello' 11 times
+b) 'Good Bye' 20 times
+c) 'abrakadabra' 12 times
+d) 'abcdefgh' 1 times
