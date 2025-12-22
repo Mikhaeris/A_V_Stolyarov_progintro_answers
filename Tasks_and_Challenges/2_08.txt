@@ -1,0 +1,21 @@
+a)
+for i := 0 to 9 do
+    writeln('Hello');
+
+b)
+for i := 1 to 19 do
+    writeln('Good Bye');
+
+c)
+for i := 15 to 26 do
+    writeln('abrakadabra');
+
+d)
+for i := 40 downto 24 do
+    writeln('foobar');
+
+e)
+-
+
+f)
+-
