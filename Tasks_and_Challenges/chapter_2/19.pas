@@ -140,7 +140,7 @@ begin
             count_spaces := 0
         end;
 
-        { word end }
+        { word finish }
         if (CheckSp(c) or eof) and not CheckSp(prev_c) then
         begin
             word_finish := prev_c;
