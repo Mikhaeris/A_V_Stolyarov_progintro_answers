@@ -1,0 +1,66 @@
+add al, bl
+a)
+al: fe
+bl: 01
+
+al: 1111 1110
+bl: 0000 0001
+
+al: 1111 1111
+answer: ff
+flags: SF
+
+b)
+al: 02
+bl: fe
+
+al: 0000 0010
+bl: 1111 1110
+
+al: 0000 0000
+answer: 00
+flags: ZF CF
+
+c)
+al: 1f
+bl: 1e
+
+al: 0001 1111
+bl: 0001 1110
+
+al: 0011 1111
+answer: 3f
+flags: -
+
+d)
+al: 1f
+bl: ff
+
+al: 0001 1111
+bl: 1111 1111
+
+al: 0001 1110
+answer: 1e
+flags: CF
+
+e)
+al: 7a
+bl: 07
+
+al: 0111 1010
+bl: 0000 0111
+
+al: 1000 0001
+answer: 81
+flags: SF OF
+
+f)
+al: 8b
+bl: f0
+
+al: 1000 1011
+bl: 1111 0000
+
+al: 0111 1011
+answer: fb
+flags: CF OF
