@@ -14,7 +14,7 @@ begin
     prev_c := ' ';
     word_len := 0;
     j := 0;
-    
+
     for i := 0 to 1 do
         str[i] := #0;
 
@@ -37,7 +37,7 @@ begin
 
         if c = #10 then
             write(c);
-        
+
         if CheckSp(c) then
             continue;
 

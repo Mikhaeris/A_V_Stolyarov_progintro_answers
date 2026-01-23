@@ -66,7 +66,6 @@ begin
 
     if length_line > 0 then
         write(flength, length_line);
-        
 
     close(ffrom);
     close(fto);

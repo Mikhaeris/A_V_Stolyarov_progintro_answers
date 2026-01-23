@@ -75,7 +75,7 @@ begin
         writeln(ErrOutput, 'Couldn''t open file: ', ParamStr(1));
         halt(1)
     end;
-    
+
     command := ParamStr(2);
     if ((command = 'add') or (command = 'query')) and (ParamCount < 3) then
     begin

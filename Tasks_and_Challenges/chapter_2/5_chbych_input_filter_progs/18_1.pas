@@ -43,11 +43,11 @@ var
     str: string;
     basis: integer;
     i: integer;
-    
+
     answer: longint;
 begin
     {$I-}
-    
+
     str := '';
     i := 1;
     repeat
@@ -61,8 +61,8 @@ begin
         end;
     until (c = ' ');
     SetLength(str, i-1);
-    
-    
+
+
     readln(basis);
     if IOResult <> 0 then
     begin
