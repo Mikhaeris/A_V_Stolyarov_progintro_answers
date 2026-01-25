@@ -18,6 +18,7 @@ _start:
 	xor	ebp, ebp
 .main:
 	xor	eax, eax
+	xor	ebx, ebx
 	xor	ecx, ecx
 	xor	edx, edx
 	xor	ebp, ebp
@@ -132,6 +133,8 @@ _start:
 
 	jmp	.loop
 .exit_loop:
+	cmp	ebp, 0
+	je	.err
 	;reset registers
 	xor	ecx, ecx
 	xor	edx, edx
@@ -158,6 +161,8 @@ _start:
 	je	.finish
 	PRINT	"ERROR"
 	PRINT	10
+	cmp	ebp, 0
+	je	.main
 .err_lp:
 	GETCHAR
 
@@ -174,6 +179,7 @@ _start:
 	PRINT	"ERROR"
 	PUTCHAR	10
 	jmp	.err_lp
+
 
 ;get num from ebx and print it
 ;get num from digit and push in memory
