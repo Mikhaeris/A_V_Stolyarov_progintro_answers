@@ -67,7 +67,7 @@ int main(int argc, char **argv)
             break;
         }
     }
-    puts("\n");
+    printf("\n");
 
     return 0;
 }
