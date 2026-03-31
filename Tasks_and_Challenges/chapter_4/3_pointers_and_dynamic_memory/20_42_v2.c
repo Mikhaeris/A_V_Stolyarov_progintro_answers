@@ -130,5 +130,5 @@ int main()
         vec_words_free(vec_words);
     }
 
-    free(vec_words);
+    vec_free(vec_words);
 }
