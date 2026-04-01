@@ -44,5 +44,7 @@ int main(int argc, char **argv)
 
     write_poem(file);
 
+    fclose(file);
+
     return 0;
 }

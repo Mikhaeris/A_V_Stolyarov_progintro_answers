@@ -20,5 +20,7 @@ int main(int argc, char **argv)
         printf("%c", c);
     }
 
+    fclose(file);
+
     return 0;
 }

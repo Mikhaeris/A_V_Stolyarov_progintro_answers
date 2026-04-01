@@ -25,5 +25,7 @@ int main(int argc, char **argv)
 
     printf("%zu\n", count_lines);
 
+    fclose(file);
+
     return 0;
 }

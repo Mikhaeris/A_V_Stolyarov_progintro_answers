@@ -19,5 +19,7 @@ int main(int argc, char **argv)
         fprintf(file, "%c", c);
     }
 
+    fclose(file);
+
     return 0;
 }
